@@ -14,8 +14,8 @@ jobs:
           node-version: 20.x
           cache: npm
 
-      - name: Install dependencies
-        run: npm ci
+      # - name: Install dependencies
+      #   run: npm ci
 
       - name: Prettify
         uses: creyD/prettier_action@v4.3
